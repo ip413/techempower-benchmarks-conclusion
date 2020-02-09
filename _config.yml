@@ -1,8 +1,8 @@
+title: Techempower benchmarks conclusion
+description: Overview of all benchmarks from techempower.com
 plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
-include:
-  - RESULT.md
 theme: jekyll-theme-cayman

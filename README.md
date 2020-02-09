@@ -8,8 +8,8 @@ This repo in not an app, lib or anything like this.
 This is only collection of scripts and data for drawing some conclusions
 about current state of programming languages.
 
-## Results for last round (18) - results normalized to best result (100).
-Data from this table comes from **csv/round18-aggregated\*** files.
+## Results for last round (18) - results normalized to best result (100)
+Data in this table comes from **csv/round18-aggregated\*** files.
 
 Conclusions: C faster than Rust, Rust faster than VB, VB faster than Go... etc
 

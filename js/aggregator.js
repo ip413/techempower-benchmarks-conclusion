@@ -57,7 +57,7 @@ function sortResultsArray() {
 
 function normalizeTo100Percent() {
     resultArray = resultArray.map(row => {
-        return [row[0], parseFloat(Number(row[1] * 100 / resultArray[0][1]).toFixed(1))];
+        return [row[0], Math.round((Number(row[1] * 100 / resultArray[0][1]).toFixed(1)))];
     })
     // this is final result for script run
     console.log(resultArray.map(v => v.join(",")).join("\n"));

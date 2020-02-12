@@ -4,36 +4,52 @@ Data source [github.com/ip413/techempower-benchmarks-conclusion/
 ](https://github.com/ip413/techempower-benchmarks-conclusion/tree/master/csv
 )
 
-Conclusions: C faster than Rust, Rust faster than VB, VB faster than Go... etc
+### Conclusion
 
+On average web apps written in:
+- Rust performs more operations* than Java
+- Java performs more operations* than C++ etc.
+
+On average web apps written in:
+- Rust or Java performs two times more operations* than VB, Kotlin, JavaScript or Crystal
+
+On average web apps written in:
+- Java are as fast as apps written in Nim
+- Go are as fast as written in C++ or C#
+- Scala are as fast as apps written in PHP
+
+\* operations - responses, updates, queries etc.
+
+### Data (normalized)
 ```
-   average          cloud           physical   
-C         100    C         100    C         100
-Rus        91    Rus      96.6    Rus      83.9
-vb       80.6    vb       83.2    vb       74.1
-Go       74.8    Go       76.1    Go         70
-Jav      65.2    Hkl      67.5    Jav      60.1
-Cry      63.1    Jav      67.2    Cry      56.9
-Hkl        61    Cry      66.3    f#       53.3
-f#       59.6    f#       63.1    Hkl      51.6
-C#       51.8    C#       54.6    C++      50.5
-C++      48.8    Kot      48.1    C#       46.6
-Kot      47.8    C++        45    Kot      45.2
-Lua      42.6    Lua      40.6    Lua      42.8
-Sca      35.1    D        36.9    Sca      33.1
-Clj        35    Clj      36.3    Clj        32
-D        29.5    Sca      35.4    Dar      27.8
-Dar      26.9    Grv      28.8    JS       25.6
-JS       25.9    JS         25    PHP      23.9
-PHP      24.2    Dar      24.8    D        20.7
-Grv      22.4    PHP      23.4    Eli      16.1
-Eli        20    Eli        23    Grv      14.8
-Swi        15    Swi      17.8    Rby      13.7
-Prl      14.8    Py         15    Py       13.1
-Py       14.4    Prl      13.9    Prl      12.6
-Rby      13.7    Rby      13.1    Swi      11.5
-typ       7.4    typ        13    Ur        2.8
-Ur        5.3    Ur        7.5    typ       1.3
-val       1.7    val       2.7    Erl       0.6
-Erl       0.7    Erl       0.8    val       0.6
+ average            cloud            physical
+Rus    100        Rus    100        Rus    100
+Jav     95        Jav     93        Jav     99
+Nim     95        C++     81        Nim     94
+C++     77        C#      71        Go      79
+Go      74        Go      68        C#      74
+C#      73        C       65        C++     73
+C       67        Hkl     45        C       70
+vb      44        vb      45        JS      46
+Kot     44        Cry     42        Kot     46
+JS      44        f#      42        Cry     43
+Cry     43        Kot     42        vb      43
+Hkl     43        JS      41        f#      42
+f#      42        Sca     35        PHP     42
+Sca     38        PHP     34        Sca     41
+PHP     38        Clj     33        Hkl     40
+Clj     35        D       29        Clj     37
+Py      28        Py      27        Py      29
+Lua     24        Lua     22        Lua     26
+D       24        Rby     18        Rby     21
+Rby     19        Grv     17        D       18
+Dar     15        Prl     14        Dar     16
+Grv     13        Dar     13        Grv     10
+Prl     11        Eli     13        Eli      9
+Eli     11        Swi     12        Swi      9
+Swi     10        typ      7        Prl      9
+typ      4        Ur       4        Ur       2
+Ur       3        val      2        typ      1
+val      1        Erl      1        Erl      1
+Erl      1                          val      1
 ```

@@ -1,6 +1,8 @@
-## Results for last round (18) - results normalized to best result (100).
+## Results for last round (18), normalized
 
-Data in this table comes from **csv/round18-aggregated\*** files.
+Data source [github.com/ip413/techempower-benchmarks-conclusion/
+](https://github.com/ip413/techempower-benchmarks-conclusion/tree/master/csv
+)
 
 Conclusions: C faster than Rust, Rust faster than VB, VB faster than Go... etc
 
